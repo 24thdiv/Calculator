@@ -1,0 +1,45 @@
+body{
+  background: url(http://i.imgur.com/wt4NRqA.jpg) no-repeat;
+  background-size: cover;
+}
+
+#calculator {
+  background: #3F51B5;
+  height: auto;
+  font-family: Roboto;
+  color: #fff;
+  margin-top: 15%;
+  box-shadow: 0 0 15px #000;
+}
+input[type="text"].calc-data {
+  color: #080808;
+  border:none;
+  font-family: Roboto;
+  font-size: 3.5em;
+  text-align: right;
+  box-shadow: 0 0 10px #000;
+}
+input[type="text"].calc-data:focus,input[type="text"].calc-data:active{
+  outline: none;
+}
+.number-buttons-group{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.number-button{
+  height: 5em;
+  font-size: 1.5em;
+  background:#FF7043;
+  outline: none;
+  border: 1px solid #3F51B5;
+  box-shadow: 0 0 4px #000;
+}
+.number-button:hover{
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  background: #E64A19;
+}
+.number-button.active, .number-button:active{
+  transform: scale(0.9);
+  background: #E64A19;
+}
